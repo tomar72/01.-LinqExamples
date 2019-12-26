@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2010
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. ObjectExamples", "02. ObjectExamples\02. ObjectExamples.csproj", "{CE559E6B-EBC2-4CE2-B19A-83B6758F4C44}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. SimpleExamples", "01. SimpleExamples\01. SimpleExamples.csproj", "{E5A7E1C1-ACF6-441F-9F53-0C7A5C875872}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. LembdaExpressions", "03. LembdaExpressions\03. LembdaExpressions.csproj", "{7D272556-DF4E-4B24-B781-072F3CEE3E09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E5A7E1C1-ACF6-441F-9F53-0C7A5C875872}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5A7E1C1-ACF6-441F-9F53-0C7A5C875872}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5A7E1C1-ACF6-441F-9F53-0C7A5C875872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D272556-DF4E-4B24-B781-072F3CEE3E09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D272556-DF4E-4B24-B781-072F3CEE3E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D272556-DF4E-4B24-B781-072F3CEE3E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D272556-DF4E-4B24-B781-072F3CEE3E09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
