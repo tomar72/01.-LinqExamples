@@ -30,8 +30,22 @@ namespace _03.LembdaExpressions
             Console.WriteLine($"Ordered  :{string.Join(", ", orderedNumbers)}");
             Console.WriteLine($"Greater  :{string.Join(", ", greaterOrderedNumbers)}");
 
+
+            Pet[] pets = { new Pet { Name="Barley", Age=8 },
+                   new Pet { Name="Boots", Age=4 },
+                   new Pet { Name="Whiskers", Age=1 } };
+            
+            var orderedPets = pets.OrderBy(pet => pet.Age).Select(p => p.Name);
+            Console.WriteLine($"Pets  :{string.Join(", ", orderedPets)}");
+
             Console.WriteLine("Press any key to continue ...");
             Console.ReadKey();
         }
+    }
+
+    class Pet
+    {
+        public string Name { get; set; }
+        public int Age { get; set; }
     }
 }
