@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. SimpleExamples", "01. S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. LembdaExpressions", "03. LembdaExpressions\03. LembdaExpressions.csproj", "{7D272556-DF4E-4B24-B781-072F3CEE3E09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsExamples", "GenericsExamples\GenericsExamples.csproj", "{EAA6599E-8B71-4156-A5FD-1F8719F3CD08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7D272556-DF4E-4B24-B781-072F3CEE3E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D272556-DF4E-4B24-B781-072F3CEE3E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D272556-DF4E-4B24-B781-072F3CEE3E09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA6599E-8B71-4156-A5FD-1F8719F3CD08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA6599E-8B71-4156-A5FD-1F8719F3CD08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA6599E-8B71-4156-A5FD-1F8719F3CD08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA6599E-8B71-4156-A5FD-1F8719F3CD08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
