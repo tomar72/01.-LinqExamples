@@ -17,7 +17,9 @@ namespace _03.LembdaExpressions
 
             //List<int> evenNumbers = (from n in numbers where (n % 2) == 0 select n).ToList();
             List<int> evenNumbers = numbers.Where(n => (n % 2 == 0)).ToList();
-            
+            List<int> orderedNumbers = numbers.OrderBy(n => n).ToList();
+            List<int> greaterOrderedNumbers = numbers.OrderBy(n => n).Where(n => (n >= 100)).ToList();
+ 
             double avgNumber = numbers.Average(n => n);
             int minNumber = numbers.Min(n => n);
             int maxNumber = numbers.Max(n => n);
@@ -25,6 +27,8 @@ namespace _03.LembdaExpressions
             Console.WriteLine($"Odd  :{string.Join(", ", oddNumbers)}");
             Console.WriteLine($"Even :{string.Join(", ", evenNumbers)}");
             Console.WriteLine($"Average : {avgNumber}, Min : {minNumber}, Max : {maxNumber}");
+            Console.WriteLine($"Ordered  :{string.Join(", ", orderedNumbers)}");
+            Console.WriteLine($"Greater  :{string.Join(", ", greaterOrderedNumbers)}");
 
             Console.WriteLine("Press any key to continue ...");
             Console.ReadKey();
